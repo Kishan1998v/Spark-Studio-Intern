@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+.card-body {
+    width: 328px;
+    background: #F8F8F8;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+.card-header {
+    top: 0;
+    width: 328px;
+    height: 130px;
+    background: #DCCCFF;
+    border-radius: 4px;
+}
+
+.card-toptag {
+    position: relative;
+    color: white;
+    top: 14px;
+    width: 180px;
+    height: 30px;
+    background: #905CFF;
+    border-radius: 3px;
+}
+
+.card-toptag>h3 {
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
+.triangle-left {
+    width: 0;
+    height: 0;
+    transform: translate(154px, -15.5px);
+    border-top: 15px solid transparent;
+    border-right: 30px solid #DCCCFF;
+    border-bottom: 15px solid transparent;
+}
+
+.card-header-circle {
+    position: relative;
+    top: -81px;
+    left: 258px;
+    width: 70px;
+    height: 70px;
+    color: #333333;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 0 0 0 100%;
+    background: #905CFF;
+    transform: rotate(deg);
+    text-align: center;
+}
+
+.card-header-circle>h1 {
+    position: relative;
+    top: 8px;
+    margin-left: 15px;
+}
+
+.card-header-Titles {
+    position: relative;
+    top: -115px;
+    left: 13px;
+    color: black;
+}
+
+.card-header-Titles>h1 {
+    top: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #49229d;
+}
+
+/* Mid Area */
+.midArea {
+    display: flex;
+    flex-direction: column;
+    width: 328px;
+    align-items: center;
+    justify-items: center;
+    color: black;
+
+}
+
+.midArea>p {
+    width: 288px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* or 143% */
+    color: #333333;
+}
+
+.midArea>h3 {
+    margin-top: 5px;
+    margin-left: -110px;
+    font-style: normal;
+    line-height: 5px;
+    /* or 143% */
+}
+
+.midArea>ul {
+    font-size: small;
+    line-height: 19px;
+    margin-top: -5px;
+}
+
+.midAreaWarning {
+    margin-top: 5px;
+    border-top: 3px #d2d2d273 solid;
+}
+
+.midAreaWarning>p {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+    color: #F47759;
+
+}
+
+/* End BAr OF Card */
+.Bar {
+    width: 329px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.EndBarInfo {
+    height: 35px;
+    width: 321px;
+    background: #DCCCFF;
+    border-radius: 4px;
+}
+
+.FinalButton {
+    width: 160px;
+    height: 43px;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    background: linear-gradient(90deg, #F3705B 0%, #FCB444 100%);
+    border-radius: 48px;
+    margin-bottom: 20px;
+}
+
+/* Star */

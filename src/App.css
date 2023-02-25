@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+body {
+    transform: scale(85%, 85%);
+    top: 0%;
+    width: 100%;
+    height: 1200px;
+    color: aliceblue;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.pallet {
+    gap: 100px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button-ui {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    border: none;
+    width: 100px;
+    height: 75px;
+    background: #DCCCFF;
+    border-radius: 8px;
+    font-family: sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button-ui>div {
+    margin-top: -7px;
 }
 
-.App-link {
-  color: #61dafb;
+.button-ui:focus {
+    color: white;
+    background: #49229d;
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button-ui:focus .triangle {
+    color: white;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 16px solid #49229d;
+
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 16px solid #55555500;
+}
+
+
+
+.Pbuttons {
+    margin-top: 30px
+}
+
+.pTab {
+    padding: 20px;
+    transition: margin-top 0.5s ease-in-out 0.2s;
+}
+
+.ViewResults {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
 }
